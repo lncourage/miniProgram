@@ -37,7 +37,6 @@ Component({
   methods: {
     //点击返回按钮处理
     handleback() {
-      console.log("back")
       wx.navigateBack({
         animationDuration: 300
       })
@@ -56,8 +55,7 @@ Component({
         TitleStyle: ` heigt: ${menuButtonInfo.height}px;top: ${menuButtonInfo.top}px;line-height: ${menuButtonInfo.height}px`
       })
     },
-    icon: function (data) {
-      console.log(this.data.isGame)
+    icon: function (data) {      
       this.setData({
         icon: `background: url(${this.data.isGame ? backIcon[0] : backIcon[1]}) center center no-repeat;backgroundSize: 100% 100%`,
       })
