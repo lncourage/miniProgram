@@ -1,0 +1,19 @@
+<!--pages/index/index.wxml-->
+<view class="main">
+    <heade title="音频可视化" showBack="{{false}}"></heade>
+    <!-- visualization -->
+    <view class="visualBox">
+        <canvas id="canvas" canvas-id="canvas" type="2d" style="width: 370px;height: 250px;"></canvas>
+    </view>
+    <!-- control -->
+    <view class="controlBox">
+        <button class="btn" type="primary" bindtap="play">Play</button>
+        <button class="btn" type="warn" bindtap="stop">Stop</button>
+        <button class="btn" bindtap="generate">Gen</button>
+    </view>
+
+    <view class="bottomText"> 
+        <span>音频可视化Demo</span>
+        <span>请在每次播放前点击Gen生成源节点，否则会报错。</span>
+    </view> 
+</view>

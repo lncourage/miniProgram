@@ -1,0 +1,42 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    background: #003;
+  }
+  
+  .main .visualBox {
+    width: 100%;
+    height: 45%;
+    position: fixed;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main .controlBox {
+    position: fixed;
+    bottom: 18%;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main .controlBox .btn {
+    width: 27vw;
+  }
+  
+  .main .bottomText {
+    width: 100vw;
+    position: fixed;
+    bottom: 5vh;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  

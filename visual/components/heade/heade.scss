@@ -1,0 +1,42 @@
+.title{
+    position: fixed;
+    width:100vw ;
+    font-size: 32rpx;
+    font-family: PingFang SC;
+    // background: no-repeat;
+    font-weight: bold;
+    color: #000000;
+    height: 32px;
+    // 
+    z-index: 999;
+    left: 10rpx;
+    
+    .back{
+        position: absolute;
+        left: 10rpx;
+        top: 50%;
+        transform: translateY(-50%) scale(0.5);
+        width: 42rpx;
+        height:70rpx;
+        padding: 30rpx;
+        // background-color: aqua;
+        background-size: 100% 100%;
+        // background-color: red;
+        background-clip: content-box;
+        .btn{
+            background-color: aqua;
+            width: 100%;
+            height: 100%;
+            transform: translateX(-30rpx);
+        }
+        
+    
+    }
+    .text{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: rgb(177, 174, 41);
+    }
+    
+}

@@ -1,0 +1,13 @@
+<!--components/heade/heade.wxml-->
+<view class="title" style="{{TitleStyle}}">
+
+    <view class="back" catchtap="handleback" wx:if="{{showBack}}">
+        <view style="{{icon}}" class="btn">
+
+        </view>
+    </view>
+
+    <view class="text" style="{{TitleStyle}}">
+        {{title}}
+    </view>
+</view>
